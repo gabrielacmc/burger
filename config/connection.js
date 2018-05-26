@@ -12,7 +12,7 @@ else {
     port: 3306,
     host: "localhost",
     user: "root",
-    password: "gabi908023",
+    password: "password",
     database: "burgers_db"
   });
 }
