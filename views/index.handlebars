@@ -1,0 +1,45 @@
+<div id="images">
+  <img src="../assets/img/burger2.png" alt="Burger">
+  <img src="../assets/img/burger3.png" alt="Burger">
+  <img src="../assets/img/burger4.png" alt="Burger">
+</div>
+<div>
+  <h2>Eat-Da-Burger
+    <h2>
+</div>
+<div class="clearfix">
+  <div class="available">
+    {{#each burgers}} {{#unless devoured}}
+    <div class="toEatBurgers">
+      <p>{{burger_name}}
+        <button data-id="{{this.id}}" class="eat">Eat-The-Burger</button>
+      </p>
+    </div>
+    {{/unless}} {{/each}}
+  </div>
+
+  <div class="notAvailable">
+    {{#each burgers}} {{#if devoured}}
+    <div class="eatenBurgers">
+      <p>{{burger_name}}</p>
+    </div>
+    {{/if}} {{/each}}
+
+  </div>
+</div>
+  <div>
+        <h2>Add a Burger</h2>
+        <form class="create-form">
+
+            <div class="form-group">
+                <label for="ca">Burger Name:</label>
+                <input type="text" id="newBurger" name="name">
+                <button id = "button" type="submit">Add Burger</button>
+            </div>
+
+
+            
+        </form>
+
+
+    </div>

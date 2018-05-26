@@ -1,0 +1,76 @@
+
+body{
+    background:  #ffffcc
+
+}
+
+img{
+    height: 200px;
+    width: 200px;
+}
+
+#images{
+    position: relative;
+    left: 25%;
+}
+
+h2{
+    text-align: center;
+    color: #d11f26;
+    font-size: 38px;
+    font-family: Arial, Times, sans-serif;
+}
+
+.available,
+.notAvailable{
+    float: left;
+    position: relative;
+    left: 25%;
+}
+
+
+.toEatBurgers,
+.eatenBurgers{
+    border: 2px solid #d11f26;
+    border-radius: 6px;
+    width: 330px;
+    /* position: relative;
+    left: 25%; */
+    color: #d11f26;
+    font-size: 20px;
+    font-family: Arial, Times, sans-serif;
+    margin: 4px;
+}
+
+p{
+    padding-left: 17px;
+}
+
+form{
+
+    float: left;
+    position: relative;
+    left: 35%;
+    color: #d11f26;
+    font-size: 20px;
+}
+
+#button{
+    background-color: #d11f26;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+input{
+    padding: 15px 32px;
+    font-size: 16px;
+}
+
+.clearfix {
+    overflow: auto;
+}
